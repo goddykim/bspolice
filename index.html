@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부산경찰청 홈페이지에 오신 것을 환영합니다.</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="lib/jquery-3.7.0.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        $(function () {
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 8000,
+                    disableOnInteraction: false,
+                }
+            });
+
+            $('main .mid .inner .box_1 .box_1_1 .notice .menu .main_no').click(function(){
+                return false;
+            })
+            $('main .mid .inner .box_1 .box_1_1 .notice .menu .main_no').click(function(){
+                $('main .mid .inner .box_1 .box_1_1 .notice .menu .main_no').removeClass('on')
+                $(this).addClass('on')
+            })
+            $('main .mid .inner .box_1 .box_1_1 .notice .menu .main_no').click(function(){
+                $('main .mid .inner .box_1 .box_1_1 .notice .sub .sub_no').removeClass('on')
+                $('main .mid .inner .box_1 .box_1_1 .notice .sub .sub_no').eq($(this).index()).addClass('on')
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <div class="logo">
+                <h2>
+                    <a href="#">
+                        <img src="img/Logo.png" alt="로고">
+                    </a>
+                </h2>
+                <img class="flag" src="img/Top_Mark.png" alt="태극기">
+            </div><!-- .logo end -->
+            <div class="menu">
+                <ul>
+                    <li><a href="https://www.bspolice.go.kr/view.do?no=7">정보 공개</a></li>
+                    <li><a href="https://www.bspolice.go.kr/view.do?no=40">소개 마당</a></li>
+                    <li><a href="https://www.bspolice.go.kr/view.do?no=68">알림 마당</a></li>
+                    <li><a href="https://www.bspolice.go.kr/view.do?no=78">국민 마당</a></li>
+                    <li><a href="https://www.bspolice.go.kr/view.do?no=95">홍보 마당</a></li>
+                    <li><a href="https://www.bspolice.go.kr/view.do?no=113">정보 마당</a></li>
+                    <li><a href="#">이용 안내</a></li>
+                </ul>
+            </div><!-- .menu end -->
+            <div class="gov">
+                <img src="img/Slogan.jpg" alt="슬로건">
+                <a href="https://www.mois.go.kr/innogov/" target="_blank">
+                    <img class="bi" src="img/Goverment_Bi.png" alt="BI">
+                </a>
+            </div><!-- .gov end -->
+        </div><!-- .inner end -->
+    </header>
+
+    <main>
+        <section class="main_banner">
+            <div class="inner">
+                <a href="https://www.bspolice.go.kr/view.do?no=1727&seq=1" target="_blank">
+                    <img src="img/Main_Banner.jpg" alt="메인">
+                </a>
+            </div><!-- .inner end -->
+        </section><!-- .main_banner end -->
+
+        <section class="mid">
+            <div class="inner">
+                <div class="box_1">
+                    <div class="icon">
+                        <a href="https://www.bspolice.go.kr/kor/view.do?no=87&siteIdStr=kor"><img src="img/M_icon01_off.jpg" alt="고마워요!부산경찰"></a>
+                        <a href="https://www.bspolice.go.kr/view.do?no=43&seq=2"><img src="img/M_icon02_off.jpg" alt="청장과의 대화"></a>
+                        <a href="#"><img src="img/M_icon03_off.jpg" alt="실시간 교통현황"></a>
+                        <a href="https://www.safe182.go.kr/cont/homeLogContents.do?contentsNm=school_vio_overview" target="_blank"><img src="img/M_icon04_off.jpg" alt="청소년/학교폭력"></a>
+                        <a href="https://www.bspolice.go.kr/kor/view.do?no=80"><img src="img/M_icon05_off.jpg" alt="운전면허조회"></a>
+                        <a href="https://www.lost112.go.kr/" target="_blank"><img src="img/M_icon06_off.jpg" alt="유실물센터"></a>
+                        <a href="https://www.bspolice.go.kr/kor/view.do?no=120"><img src="img/M_icon07_off.jpg" alt="민원서식"></a>
+                        <a href="https://www.bspolice.go.kr/kor/view.do?no=89"><img src="img/M_icon08_off.jpg" alt="역사전시관"></a>
+                        <a href="https://www.kics.go.kr/" target="_blank"><img src="img/M_icon09_off.jpg" alt="내 사건 검색"></a>
+                    </div><!-- .icon end -->
+                    <div class="box_1_1">
+                        <div class="notice">
+                            <div class="menu">
+                                <a class="main_no on" href="#">공지사항</a>
+                                <a class="main_no" href="#">채용공고</a>
+                                <a class="main_no" href="#">입찰공고</a>
+                                <a class="main_no" href="#">오늘의집회</a>
+                            </div><!-- .menu end -->
+                            <div class="sub">
+                                <ul class="sub_no on">
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=69&view=view&idx=98946">운전면허 취소처분 결정 공고(23. 10. 23. ~ 11. 5.)</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=69&view=view&idx=98906">23년 3/4분기 운전학원 교육성과 자료 공개</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=69&view=view&idx=98905">운전면허 취소처분 결정 공고(23. 10. 19. ~ 11. 1.)</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=69&view=view&idx=98898">무인교통단속장비(CCTV) 설치에 따른 행정예고(2개소)</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=69&view=view&idx=98896">운전면허 취소처분 결정 공고(23. 10. 18. ~ 10. 31.)</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=69&view=view&idx=98832">운전면허 취소처분 결정 공고(23. 10. 12. ~ 10. 25.)</a></li>
+                                </ul>
+                                <ul class="sub_no">
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=76&view=view&idx=98815">2023년 제3회 부산경찰청 시설계 무기계약직 채용 공고</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=76&view=view&idx=98676">(부산청) 2023년 제2회 일반직공무원 경력경쟁채용시험 최종합격자 ...</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=76&view=view&idx=98404">2023년 제2차 경찰공무원 공개경쟁채용 및 하반기 경찰공무원 경력...</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=76&view=view&idx=98403">2023년 하반기 경찰공무원 경력경쟁채용 필기시험 합격자 공고</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=76&view=view&idx=98194">2023년 제2차 경찰공무원 공개경쟁채용(경찰행정 포함) 필기시험 합...</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=76&view=view&idx=98173">2023년 하반기 경찰공무원 경력경쟁채용 필기시험 장소 공고(부산청)</a></li>
+                                </ul>
+                                <ul class="sub_no">
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=1655&view=view&idx=93638">부산광역시경찰청 구내식당 위탁운영업체 모집 공고</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=1655&view=view&idx=92873">2022년 제3회 경찰청 일반직공무원 경력경쟁채용시험 재공고</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=1655&view=view&idx=88293">(재공고)2022년도 아동안전지킴이 보조사업자 공고</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=1655&view=view&idx=88027">2022년도 아동안전지킴이 보조사업자 공고</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=1655&view=view&idx=74083">부산남부운전면허시험장 국유재산(자판기)사용허가 입찰 공고(2019...)</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=1655&view=view&idx=74026">습득물품(귀금속 등 9종) 매각 입찰 공고(2019-95호)</a></li>
+                                </ul>
+                                <ul class="sub_no">
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=72&view=view&idx=98889">2023. 10. 18(수) 주요집회 없음</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=72&view=view&idx=98888">2023. 10. 17(화) 주요집회 없음</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=72&view=view&idx=98887">2023. 10. 16(월) 주요집회 없음</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=72&view=view&idx=98886">2023. 10. 15(일) 주요집회 없음</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=72&view=view&idx=98885">2023. 10. 14(토) 주요집회 없음</a></li>
+                                    <li><a href="https://www.bspolice.go.kr/view.do?no=72&view=view&idx=98838">2023. 10. 13(금) 주요집회 없음</a></li>
+                                </ul>
+                            </div><!-- .sub end -->
+
+                        </div><!-- .notice end -->
+                        <div class="minwon">
+                            <a href="https://minwon.police.go.kr/" target="_blank">
+                                <img src="img/Minwon_Banner.jpg" alt="민원포털">
+                            </a>
+                        </div><!-- .minwon end -->
+                    </div><!-- .box_1_1 end -->
+                </div><!-- .box_1 end -->
+                <div class="box_2">
+                    <a href="https://www.bspolice.go.kr/view.do?no=1508&siteldStr=kor">
+                        <img src="img/Open.jpg" alt="열린청장실">
+                    </a>
+                </div><!-- .box_2 end -->
+            </div><!-- .inner end -->
+        </section><!-- .mid end -->
+
+        <section class="bottom">
+            <div class="inner">
+                <div class="photo">
+                    <h4>부산경찰 포토갤러리</h4>
+                    <a href="https://www.bspolice.go.kr/view.do?no=46&seq=1"><img src="img/Photo_1.jpg" alt="포토"></a>
+                    <p>23. 10. 16. 지구대 방문, 현장 경찰관 격려</p>
+                </div><!-- .photo end -->
+                <div class="video">
+                    <h4>홍보영상갤러리</h4>
+                    <a href="https://www.bspolice.go.kr/view.do?no=103&view=view&idx=98871"><img src="img/Video_1.png" alt="영상"></a>
+                    <p>[보이스피싱 예방] 극대노의 아이콘 전한길이 부산청에
+                        떴다?!</p>
+                </div><!-- .video end -->
+                <div class="story">
+                    <h4>부산생생스토리</h4>
+                    <a href="https://www.bspolice.go.kr/view.do?no=104&view=view&idx=98872#"><img src="img/Story_1.jpg" alt="스토리"></a>
+                    <p>"왜 경찰서에 경찰이 없어?!" 경찰관이 상주하지 않는
+                        '○○○○'알고 계신가요~?</p>
+                </div><!-- .story end -->
+                <div class="youtube">
+                    <h4>부산경찰 사랑방</h4>
+                    <a href="https://www.youtube.com/@kwonhj123" target="_blank"><img src="img/Youtube_1.jpg" alt="유튜브"></a>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/BusanPolice" target="_blank"><img src="img/icon_facebook.jpg" alt="페이스북"></a>
+                        <a href="https://www.youtube.com/@kwonhj123" target="_blank"><img src="img/icon_youtube.jpg" alt="유튜브"></a>
+                        <a href="https://story.kakao.com/ch/bspolice" target="_blank"><img src="img/icon_kakaostory.jpg" alt="카카오스토리"></a>
+                    </div><!-- .icon end -->
+                </div><!-- .youtube end -->
+            </div><!-- .inner end -->
+        </section><!-- .bottom end -->
+
+        <section class="banner">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://www.mois.go.kr/frt/a01/frtMain.do" target="_blank"><img src="img/Banner_1.jpg" alt="행정안전부"></a>
+                        <a href="https://www.safetyreport.go.kr/#main" target="_blank"><img src="img/Banner_2.gif" alt="안전신문고"></a>
+                        <a href="http://www.policefund.or.kr/index.do" target="_blank"><img src="img/Banner_3.jpg" alt="경찰공제회"></a>
+                        <a href="http://www.gmothers.kr/" target="_blank"><img src="img/Banner_4.jpg" alt="녹색어머니중앙회"></a>
+                        <a href="https://www.policemuseum.go.kr/" target="_blank"><img src="img/Banner_5.jpg" alt="경찰박물관"></a>
+                        <a href="https://korea.kr/main.do" target="_blank"><img src="img/Banner_6.jpg" alt="정책포털"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.epeople.go.kr/index.jsp" target="_blank"><img src="img/Banner_7.gif" alt="국민신문고"></a>
+                        <a href="https://www.badatv.com/" target="_blank"><img src="img/Banner_8.gif" alt="BADATV"></a>
+                        <a href="https://www.ex-police.or.kr/" target="_blank"><img src="img/Banner_9.jpg" alt="대한민국재향경우회"></a>
+                        <a href="https://www.giro.or.kr/" target="_blank"><img src="img/Banner_10.jpg" alt="교통범칙금납부"></a>
+                        <a href="https://www.open.go.kr/com/main/mainView.do" target="_blank"><img src="img/Banner_11.jpg" alt="정보공개시스템"></a>
+                        <a href="https://bcvc.kcva.or.kr/" target="_blank"><img src="img/Banner_12.jpg" alt="부산범죄피해자지원센터"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.koroad.or.kr/" target="_blank"><img src="img/Banner_13.gif" alt="도로교통공단"></a>
+                        <a href="https://www.kgls.or.kr/" target="_blank"><img src="img/Banner_14.gif" alt="정부법무공단"></a>
+                        <a href="https://www.gbpolice.go.kr/dokdo/index.do" target="_blank"><img src="img/Banner_15.jpg" alt="독도경비대"></a>
+                        <a href="https://www.police.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1009" target="_blank"><img src="img/Banner_16.gif" alt="수사구조개혁"></a>
+                        <a href="http://www.dokdohistory.com/main.do" target="_blank"><img src="img/Banner_17.gif" alt="독도연구소"></a>
+                        <a href="https://polinlove.tistory.com/" target="_blank"><img src="img/Banner_18.gif" alt="폴인러브"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.sexoffender.go.kr/indexN.nsc" target="_blank"><img src="img/Banner_19.gif" alt="성범죄자알림e"></a>
+                        <a href="https://policemuseum.go.kr/pm_info_new/relic_new05.asp" target="_blank"><img src="img/Banner_20.jpg" alt="경찰박물관유물수집"></a>
+                        <a href="https://www.acrc.go.kr/" target="_blank"><img src="img/Banner_21.jpg" alt="국민권익위원회"></a>
+                        <a href="https://www.better.go.kr/zz.main.PortalMain.laf" target="_blank"><img src="img/Banner_22.jpg" alt="통합규제정보포털"></a>
+                        <a href="https://www.efine.go.kr/main/main.do" target="_blank"><img src="img/Banner_23.jpg" alt="eFINE"></a>
+                        <a href="https://www.gov.kr/portal/main/nologin" target="_blank"><img src="img/Banner_24.jpg" alt="정부24"></a>
+                        <!-- <a href="#"><img src="img/Banner_25.jpg" alt="배너25"></a>
+                        <a href="#"><img src="img/Banner_26.jpg" alt="배너26"></a>
+                        <a href="#"><img src="img/Banner_27.jpg" alt="배너27"></a>
+                        <a href="#"><img src="img/Banner_28.jpg" alt="배너28"></a> -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- .banner end -->
+
+        <footer>
+            <div class="inner">
+                <div class="txt">
+                    <ul>
+                        <li><a href="https://www.bspolice.go.kr/view.do?no=126"><span>개인정보처리방침</span></a></li>
+                        <li><a href="https://www.bspolice.go.kr/view.do?no=127">저작권보호정책</a></li>
+                        <li><a href="https://www.bspolice.go.kr/view.do?no=128">이메일무단수집거부</a></li>
+                        <li><a href="https://www.bspolice.go.kr/view.do?no=59">찾아오시는 길</a></li>
+                        <li><a href="https://www.bspolice.go.kr/view.do?no=8&seq=5">관서장 업무추진비 사용내역</a></li>
+                        <li><a href="https://www.bspolice.go.kr/data/popup/camposition/camlist1.html?ver=0.4763917727890774"><span>무인교통단속장비단속장소</span></a></li>
+                        <li><a href="https://www.bspolice.go.kr/view.do?no=58">부서별 연락처</a></li>
+                    </ul>
+                    <h4>주소 : (우 47545) 부산광역시 연제구 중앙대로 999 (연산동) / 경찰민원콜센터 : 182 (유료)</h4>
+                    <p>Copyright ⓒ BUSAN METROPOLITAN POLICE All rights reserved.</p>
+                </div><!-- .txt end -->
+                <a href="img/wm-img.png" target="_blank"><img src="img/wm-mark.png" alt="우수컨텐츠서비스"></a>
+            </div><!-- .inner end -->
+        </footer>
+    </main>
+</body>
+
+</html>
